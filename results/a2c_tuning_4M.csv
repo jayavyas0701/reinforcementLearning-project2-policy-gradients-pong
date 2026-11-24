@@ -1,0 +1,4 @@
+Run,Change,Frames to -19,Frames to -15,reward_100 at 4M frames,Best reward_100 up to 4M
+A1_textbook,starting values,"2,909k",not reached,-17.58,-17.52
+A2_lr_2e-3,{'lr': 0.002},"3,991k",not reached,-18.94,-18.94
+A3_clip_0.5,{'grad_clip': 0.5},not reached,not reached,-20.42,-20.22

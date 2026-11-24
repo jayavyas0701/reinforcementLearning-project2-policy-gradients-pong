@@ -1,0 +1,8 @@
+Run,Change,Best reward_100,Final reward_100,Frames trained,Games,Minutes,Frames/s
+R1_vanilla,"starting values (lr 1e-4, 4 games/update)",-20.21,-20.3,500484,540,16.3,511
+R2_baseline,+ baseline,-20.08,-20.19,503021,544,16.4,512
+R3_point_returns,+ per-point returns,-20.17,-20.37,503182,540,16.4,511
+R4_entropy,+ entropy bonus 0.01,-20.26,-20.41,502814,544,16.4,511
+R5_lr_5e-4,+ lr 5e-4,-20.22,-20.3,501457,560,16.6,502
+R6_batch_16,R5 + 16 games/update,-20.21,-20.37,505613,544,13.2,638
+R7_lr_1e-3,R5 + lr 1e-3,-20.11,-20.25,502376,552,15.2,549

@@ -1,0 +1,5 @@
+Algorithm,Type,Frames to 0,Frames to 15,Frames to 19,Minutes to 19,Best reward_100,Frames trained,Games played,Frames/s,Gradient updates,Samples per update,Times each sample is used,Value bias (Section 11)
+REINFORCE,"On-policy, Monte-Carlo returns",not reached,not reached,not reached,not reached (130 min trained),-19.97,"4,001k",4316,511,"1,079",3708,1,none (real returns)
+A2C,"On-policy, actor-critic (bootstrapped)","7,098k","8,644k","9,363k",257.3,19.0,"9,363k",4797,607,"73,149",128,1,0.071
+"DQN, epsilon-greedy (Project 1 baseline)","Off-policy, Q-learning + replay buffer",293k,390k,862k,138.8,19.36,"1,747k",not in Project 1 tables,103,"~1,736,550",32,~32,see note *
+"DQN, Max-Boltzmann (Project 1 best, 10k buffer)","Off-policy, Q-learning + replay buffer",331k,424k,492k,75.8,19.01,492k,not in Project 1 tables,108,"~482,000",32,~32,see note *

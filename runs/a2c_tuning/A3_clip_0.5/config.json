@@ -1,0 +1,13 @@
+{
+  "seed": 0,
+  "n_envs": 32,
+  "n_steps": 4,
+  "lr": 0.001,
+  "adam_eps": 0.001,
+  "gamma": 0.99,
+  "value_coef": 1.0,
+  "entropy_beta": 0.01,
+  "grad_clip": 0.5,
+  "max_frames": 4000000,
+  "max_minutes": 150
+}

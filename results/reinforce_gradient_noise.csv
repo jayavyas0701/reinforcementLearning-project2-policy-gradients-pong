@@ -1,0 +1,4 @@
+Advantage,"Agreement, 4 games/batch","Agreement, 8 games/batch","Agreement, 16 games/batch"
+R1: vanilla (A = G),-0.007,-0.02,0.013
+R2: + baseline,-0.028,-0.043,-0.079
+R3: + baseline + per-point returns,-0.01,-0.022,-0.014
